@@ -39,9 +39,9 @@ if ($api_resource['signed']){
 }
 $resources = get_resource_files($resource);
 
-// naive assumption that the metadump.xml is always at the end
 if ($meta) {
-  $filepath = end($resources);
+  print json_encode(get_resource_field_data($resource,false,false));
+  die();
 }
 else {
   $filepath = reset($resources);

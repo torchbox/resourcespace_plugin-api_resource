@@ -5,7 +5,7 @@ http://url/plugins/api_resource/?key=[authkey]&[optional parameters]
 
 Parameters:
 resource=[int]           get resource file in stream
-meta=[bool]              get the xml metadata cache file in stream
+meta=[bool]              get the json metadata cache file in stream
 
 
 sample call:
